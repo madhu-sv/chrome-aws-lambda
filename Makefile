@@ -11,3 +11,5 @@
 
 inflated: bin/chromium-*.br
 	brotli --decompress --rm bin/chromium-*.br
+	brotli --decompress --rm bin/swiftshader/*.br
+
